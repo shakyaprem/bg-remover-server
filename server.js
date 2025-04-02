@@ -15,7 +15,7 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors({ credentials: true, origin: 'https://bg-remover-client-liard.vercel.app'}));
+app.use(cors({ credentials: true, origin: 'https://bg-remover-client-zeta.vercel.app'}));
 app.use(cookieParser());
 app.use('/uploads', express.static('uploads'));
 
